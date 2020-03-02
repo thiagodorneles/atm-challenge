@@ -20,8 +20,6 @@ The solution was designed with a few projects, and each one has one unique respo
 - DependencyInjection = system that controls and registers each module and your interface. And just this layer knows how to resolve each module.
 - UnitTests = tests of our application.
 
-# How to was coded
-
 It's a simple application, so does not require a lot of explain.
 But, there two things that I think important to say.
 
