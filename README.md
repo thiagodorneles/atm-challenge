@@ -33,3 +33,4 @@ The DI exists for it. Of course, for this kind of application is really small, a
 - Turn this application compatible with aspnet core. I didn't this right now just because of my computer (I'm using an older macbook) and it's not compatible with requirements to run the latest version of dotnet.
 - Create a persistent layer with some database to persist all transactions and to know how many notes are there on the ATM machine and discount it after each withdrawal.
 - Create a better layer of exceptions to be more abstract and reusable in application 
+- Use Docker
