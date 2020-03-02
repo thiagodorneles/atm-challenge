@@ -1,7 +1,5 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATM", "ATM\ATM.csproj", "{B602C13B-566B-4393-87ED-83F354883197}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATM.Services", "ATM.Services\ATM.Services.csproj", "{20D0DC11-B7D8-4561-AABC-29C483F56986}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATM.Interfaces", "ATM.Interfaces\ATM.Interfaces.csproj", "{E6D63E58-AEBA-4E12-8A8D-90619EEE148A}"
@@ -20,10 +18,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B602C13B-566B-4393-87ED-83F354883197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B602C13B-566B-4393-87ED-83F354883197}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B602C13B-566B-4393-87ED-83F354883197}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B602C13B-566B-4393-87ED-83F354883197}.Release|Any CPU.Build.0 = Release|Any CPU
 		{20D0DC11-B7D8-4561-AABC-29C483F56986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{20D0DC11-B7D8-4561-AABC-29C483F56986}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20D0DC11-B7D8-4561-AABC-29C483F56986}.Release|Any CPU.ActiveCfg = Release|Any CPU

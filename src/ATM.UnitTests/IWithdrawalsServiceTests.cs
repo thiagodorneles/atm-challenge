@@ -12,9 +12,9 @@ namespace ATM.UnitTests
         [Fact]
         public void ShouldFailOnTryToDoAWithdrawalWithNegativeAmount()
         {
-            var expectedMessage = Messages.negative_value_is_invalid;
-            
             var service = Modules.Resolve<IWithdrawals>();
+            
+            var expectedMessage = Messages.negative_value_is_invalid;
 
             var exception = Assert.Throws<BaseException>(() => service.DoWithdrawal(-10));
             
@@ -27,9 +27,9 @@ namespace ATM.UnitTests
         [InlineData(15)]
         public void ShouldFailOnTryToDoAWithdrawalWithAnInvalidAmount(int invalidAmount)
         {
-            var expectedMessage = Messages.invalid_amount;
-            
             var service = Modules.Resolve<IWithdrawals>();
+
+            var expectedMessage = Messages.invalid_amount;
 
             var exception = Assert.Throws<BaseException>(() => service.DoWithdrawal(invalidAmount));
             
