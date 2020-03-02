@@ -4,14 +4,14 @@ using Xunit;
 
 namespace ATM.UnitTests
 {
-    public class IWithdrawalsTests : BaseTest
+    public class IWithdrawalsServiceTests : BaseTest
     {
         [Fact]
         public void ShouldReturnOne()
         {
-                var service = Modules.Resolve<IWithdrawals>();
-                
-                Assert.Equal(1, service.DoWithdrawal());
+            var service = Modules.Resolve<IWithdrawals>();
+            
+            Assert.Equal(1, service.DoWithdrawal());
         }
     }
 }

@@ -1,4 +1,4 @@
-using ATM.Interfaces;
+using ATM.Interfaces.Services;
 using ATM.Services;
 
 namespace ATM.DependencyInjection

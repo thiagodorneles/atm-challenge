@@ -64,7 +64,7 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Configuration\BaseTest.cs" />
-        <Compile Include="IWithdrawalsTests.cs" />
+        <Compile Include="IWithdrawalsServiceTests.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>
